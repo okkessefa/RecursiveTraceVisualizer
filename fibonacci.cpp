@@ -38,3 +38,24 @@ std::int64_t fib(int n){
     std::vector<std::int64_t> memo(n+1, -1);
     return fib_memo(n, memo);
 }
+
+
+// simplified version
+/*
+int fib_memo(integer_value, memo){
+    // base case
+    if(n<= 1) return n;
+    if(memo[n] != -1) return memo[n];
+    
+    // do somwthing to shtink the sub-problem 
+    memo[n] = fib_memo(n - 1, memo) + fib_memo(n - 2, memo);
+
+    // Recursive part 
+    return memo[n];
+}
+//wrapper function
+int fib(integer_value){
+    memo(n+1, -1);
+    return fib_memo(n, memo);
+}
+ */
