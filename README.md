@@ -120,6 +120,8 @@ Final Result: fib(4) = 3
 
 
 🛣️ Roadmap
+✅ Add fibonacci visualization
+
  Add factorial visualization
 
  Add Tower of Hanoi visualization

@@ -5,6 +5,6 @@
 
 // Function prototype
 std::int64_t fib(int n);
-std::int64_t fib_memo(int n, std::vector<std::int64_t>& memo);
+std::int64_t fib_memo(int n, std::vector<std::int64_t> &memo, int depth);
 
 #endif
