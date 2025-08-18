@@ -7,8 +7,7 @@ int main() {
     std::cin >> n;
 
     std::cout << "\nTracing recursive calls:\n";
-    int result = fibonacci(n);
-
-    std::cout << "\nFinal Result: fib(" << n << ") = " << result << "\n";
+    
+    std::cout << "F(" << n << ") = " << fib(n) << "\n";
     return 0;
 }
